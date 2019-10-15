@@ -24648,7 +24648,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-const selectButton = document.querySelector('.filter__select-button');
+//const selectButton = document.querySelector('.filter__select-button');
 const selectButtonText = document.querySelector('.filter__select-button .button__text');
 const selectOptions = document.querySelectorAll('.filter__select-item');
 const popup = document.querySelector('.filter__select-popup');

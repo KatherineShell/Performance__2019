@@ -449,7 +449,7 @@ footer {
     max-width: 62px;
     height: 40px;
     padding-right: 32px;
-}/*
+}
 .modal__value_temp {
     background: url("assets/panel__icon_temp_on.svg") calc(100% + 10px) 0%/contain no-repeat;
 }
@@ -485,7 +485,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}*/
+}
 @keyframes modal {
     from {
         transform: scale(0.2);
