@@ -24439,19 +24439,19 @@
 
 
 
-const output = document.querySelector('.modal__value');
-const rangeSLider = document.querySelector('.adjust-bar.adjust-bar_theme_temp');
+// const output = document.querySelector('.modal__value');
+// const rangeSLider = document.querySelector('.adjust-bar.adjust-bar_theme_temp');
 
 // rangeSLider.oninput = function() {
 //     output.innerHTML = this.value > 0 ? '+' + this.value : this.value;
 // }
 
-const arrowLeftDevs = document.querySelector('.devices__paginator .paginator__arrow_left');
-const arrowRightDevs = document.querySelector('.devices__paginator .paginator__arrow_right');
-const panelCountDevs = document.querySelectorAll('.devices__panel').length;
-const devices = document.querySelector('.devices');
-const pagiantorDevs = document.querySelector('.devices__paginator');
-let currentPageDevs = 1;
+// const arrowLeftDevs = document.querySelector('.devices__paginator .paginator__arrow_left');
+// const arrowRightDevs = document.querySelector('.devices__paginator .paginator__arrow_right');
+// const panelCountDevs = document.querySelectorAll('.devices__panel').length;
+// const devices = document.querySelector('.devices');
+// const pagiantorDevs = document.querySelector('.devices__paginator');
+// let currentPageDevs = 1;
 
 // pagiantorDevs.classList.toggle('paginator_hide', panelCountDevs < 7);
 
@@ -24638,18 +24638,18 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-const arrowLeftScens = document.querySelector('.scenarios__paginator .paginator__arrow_left');
-const arrowRightScens = document.querySelector('.scenarios__paginator .paginator__arrow_right');
-const panelCountScens = document.querySelectorAll('.scenarios__panel').length;
-const pageCountScens = document.querySelectorAll('.scenarios__page').length;
-const scenarios = document.querySelector('.scenarios');
-const pagiantorScens = document.querySelector('.scenarios__paginator');
-let currentPage = 1;
+// const arrowLeftScens = document.querySelector('.scenarios__paginator .paginator__arrow_left');
+// const arrowRightScens = document.querySelector('.scenarios__paginator .paginator__arrow_right');
+// const panelCountScens = document.querySelectorAll('.scenarios__panel').length;
+// const pageCountScens = document.querySelectorAll('.scenarios__page').length;
+// const scenarios = document.querySelector('.scenarios');
+// const pagiantorScens = document.querySelector('.scenarios__paginator');
+// let currentPage = 1;
 
 
 
 
-const selectButton = document.querySelector('.filter__select-button');
+// const selectButton = document.querySelector('.filter__select-button');
 const selectButtonText = document.querySelector('.filter__select-button .button__text');
 const selectOptions = document.querySelectorAll('.filter__select-item');
 const popup = document.querySelector('.filter__select-popup');
