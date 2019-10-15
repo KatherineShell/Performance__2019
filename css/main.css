@@ -431,7 +431,7 @@ footer {
 .modal_open {
     display: flex;
 }
-.modal_open /*.modal__content*/ {
+.modal_open .modal__content {
     animation: modal 0.2s ease forwards;
 }
 .modal__title {
