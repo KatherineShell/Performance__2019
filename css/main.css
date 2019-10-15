@@ -516,7 +516,7 @@ html {
 }
 .page__wrapper-content {
     flex: 1 0 auto;
-}/*
+}
 .paginator {
     height: 16px;
     width: 47px;
@@ -624,10 +624,10 @@ html {
 }
 .weather__item_cloud-drizzle {
     background: url("assets/cloud-drizzle.png") 100% 70%/26px no-repeat;
-}*/
+}
 .stats {
     opacity: 0;
-}/*
+}
 .panel__icon {
     width: 24px;
     height: 24px;
@@ -646,7 +646,7 @@ html {
 }
 .panel__icon_clock {
     background: url("assets/panel__icon_clock.svg") center center/contain no-repeat;
-}*/
+}
 
 .card-heading {
     display: flex;
@@ -868,12 +868,12 @@ html {
 /*
 html {
     overflow: scroll
-}
+}*/
 
 .video-wrapper {
     min-height: 300px;
     position: relative
-}*/
+}
 
 .video {
     position: absolute;
