@@ -479,12 +479,12 @@ footer {
     border-radius: 20px;
     background: #fff;
 }
-.modal__controls {
+/* .modal__controls {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+} */
 @keyframes modal {
     from {
         transform: scale(0.2);
@@ -506,15 +506,15 @@ html {
     padding: 0;
     width: 1366px;
 }
-.page__wrapper {
+/* .page__wrapper {
     display: flex;
     flex-direction: column;
     height: 100%;
-}
-.page__wrapper-content {
+} */
+/* .page__wrapper-content {
     flex: 1 0 auto;
-}
-.paginator {
+} */
+/* .paginator {
     height: 16px;
     width: 47px;
     display: flex;
@@ -522,11 +522,11 @@ html {
 }
 .paginator div {
     width: 16px;
-}
-.paginator_hide {
+} */
+/* .paginator_hide {
     display: none;
-}
-.paginator__arrow {
+} */
+/* .paginator__arrow {
     opacity: 1;
     cursor: pointer;
 }
@@ -535,11 +535,11 @@ html {
 }
 .paginator__arrow:active {
     opacity: 0.3;
-}
-.paginator__arrow_disabled {
+} */
+/* .paginator__arrow_disabled {
     opacity: 0.3;
-}
-.panel {
+} */
+/* .panel {
     padding: 14px;
     min-height: 100px;
     width: 200px;
@@ -558,32 +558,32 @@ html {
 }
 .panel:active {
     box-shadow: none;
-}
-.panel_device {
+} */
+/* .panel_device {
     height: 120px;
-}
-.panel_first {
+} */
+/* .panel_first {
     margin-top: 20px;
-}
-.panel_last {
+} */
+/* .panel_last {
     margin-bottom: 20px;
-}
-.panel__sub {
+} */
+/* .panel__sub {
     font-size: 12px;
     color: #858585;
-}
-.panel__title {
+} */
+/* .panel__title {
     font-weight: 700;
     margin-bottom: 4px;
-}
-.scenarios {
+} */
+/* .scenarios {
     max-height: 331px;
     background: #fff;
     display: flex;
     justify-content: flex-start;
     overflow-x: hidden;
-}
-.scenarios__page {
+} */
+/* .scenarios__page {
     display: grid;
     grid-template-columns: repeat(3, 200px);
     grid-template-rows: repeat(3, 100px);
@@ -591,45 +591,45 @@ html {
     grid-row-gap: 15px;
     justify-content: space-between;
     margin-right: 15px;
-}
-.scenarios__paginator {
+} */
+/* .scenarios__paginator {
     position: absolute;
     top: 0;
     right: 40px;
-}
-.scenarios_hide {
+} */
+/* .scenarios_hide {
     display: none;
-}
-.weather {
+} */
+/* .weather {
     display: flex;
-}
-.weather__item {
+} */
+/* .weather__item {
     margin-right: 18px;
-}
-.weather__item-title {
+} */
+/* .weather__item-title {
     color: #858585;
     margin-bottom: 4px;
-}
-.weather__item-temp {
+} */
+/* .weather__item-temp {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.16;
     font-family: "PT Sans Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.weather__item_outside {
+} */
+/* .weather__item_outside {
     padding-right: 31px;
-}
-.weather__item_cloud-drizzle {
+} */
+/* .weather__item_cloud-drizzle {
     background: url("assets/cloud-drizzle.png") 100% 70%/26px no-repeat;
-}
+} */
 .stats {
     opacity: 0;
 }
-.panel__icon {
+/* .panel__icon {
     width: 24px;
     height: 24px;
-}
-.panel__icon_temp_off {
+} */
+/* .panel__icon_temp_off {
     background: url("assets/panel__icon_temp_off.svg") center center/contain no-repeat;
 }
 .panel__icon_temp_on {
@@ -643,7 +643,7 @@ html {
 }
 .panel__icon_clock {
     background: url("assets/panel__icon_clock.svg") center center/contain no-repeat;
-}
+} */
 
 .card-heading {
     display: flex;
@@ -866,11 +866,6 @@ html {
 html {
     overflow: scroll
 }
-/* 
-.video-wrapper {
-    min-height: 300px;
-    position: relative
-} */
 
 .video {
     position: absolute;
@@ -883,11 +878,6 @@ html {
     -webkit-filter: brightness(100%) contrast(100%);
     filter: brightness(100%) contrast(100%)
 }
-
-/* .video_active {
-    z-index: 10;
-    background: #000
-} */
 
 .video-controls-wrap {
     box-sizing: border-box;
@@ -907,10 +897,6 @@ html {
     overflow: hidden;
     transition: height .5s ease
 }
-/* 
-.video-controls_active {
-    height: 92px
-} */
 
 .controls-text {
     float: left
@@ -919,40 +905,6 @@ html {
 .video-control {
     float: left
 }
-/* 
-.video-volume {
-    background: url(../img/sound_n.png);
-    background-size: cover;
-    height: 40px;
-    width: 40px;
-    margin-left: 40px;
-    cursor: pointer
-} */
-
-/* .video-volume_unmuted {
-    background: green;
-    background: url(../img/sound.png);
-    background-size: cover
-} */
-
-/* .analyser {
-    position: absolute;
-    z-index: 5;
-    width: 30px;
-    height: 0;
-    bottom: 40px;
-    right: 0;
-    background: green;
-    transition: height .5s ease
-} */
-/* 
-.analyser_active {
-    position: fixed;
-    z-index: 15;
-    bottom: 40px;
-    right: 40px;
-    width: 60px
-} */
 
 @media (max-width: 1230px) {
     .card_size_m {
