@@ -24437,24 +24437,6 @@
     }
 ]);
 
-
-
-// const output = document.querySelector('.modal__value');
-// const rangeSLider = document.querySelector('.adjust-bar.adjust-bar_theme_temp');
-
-// rangeSLider.oninput = function() {
-//     output.innerHTML = this.value > 0 ? '+' + this.value : this.value;
-// }
-
-// const arrowLeftDevs = document.querySelector('.devices__paginator .paginator__arrow_left');
-// const arrowRightDevs = document.querySelector('.devices__paginator .paginator__arrow_right');
-// const panelCountDevs = document.querySelectorAll('.devices__panel').length;
-// const devices = document.querySelector('.devices');
-// const pagiantorDevs = document.querySelector('.devices__paginator');
-// let currentPageDevs = 1;
-
-// pagiantorDevs.classList.toggle('paginator_hide', panelCountDevs < 7);
-
 $('.card').each(function(e) {
     if ($(this).hasClass('card_size_s')) {
         $(this).css({'border-radius': '22px'})
@@ -24470,7 +24452,7 @@ let maxRotate = 0.42; // 150 градусов
 let minRotate = -0.42; // -150 градусов
 
 const MIN_VALUE = 26;
-const MAX_VALUE = 35;
+// const MAX_VALUE = 35;
 const INDICATOR_OFFSET = 265;
 
 const rotateToValue = function(rotate) {
@@ -24525,44 +24507,44 @@ let knobDragged;
 let prevAngleRad = null;
 let prevRotate = null;
 
-function startDragging(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    const rad = getMouseAngle(e, document.querySelector('.knob_center'));
+// function startDragging(e) {
+//     e.preventDefault();
+//     e.stopPropagation();
+//     const rad = getMouseAngle(e, document.querySelector('.knob_center'));
 
-    knobDragged = true;
-    prevAngleRad = rad;
-    prevRotate = curRotate;
-}
+//     knobDragged = true;
+//     prevAngleRad = rad;
+//     prevRotate = curRotate;
+// }
 
-function stopDragging(e) {
-    knobDragged = false;
-}
+// function stopDragging(e) {
+//     knobDragged = false;
+// }
 
-function dragRotate(e) {
-    if (!knobDragged) {
-        return;
-    }
+// function dragRotate(e) {
+//     if (!knobDragged) {
+//         return;
+//     }
 
-    const old = prevAngleRad;
-    let rad = getMouseAngle(e, document.querySelector('.knob_center'));
-    let delta = rad - old;
+//     const old = prevAngleRad;
+//     let rad = getMouseAngle(e, document.querySelector('.knob_center'));
+//     let delta = rad - old;
 
-    prevAngleRad = rad;
+//     prevAngleRad = rad;
 
-    if (delta < 0) {
-        delta += Math.PI * 2;
-    }
-    if (delta > Math.PI) {
-        delta -= Math.PI * 2;
-    }
+//     if (delta < 0) {
+//         delta += Math.PI * 2;
+//     }
+//     if (delta > Math.PI) {
+//         delta -= Math.PI * 2;
+//     }
 
-    const deltaRotate = delta / Math.PI / 2;
-    const rotate = prevRotate + deltaRotate;
+//     const deltaRotate = delta / Math.PI / 2;
+//     const rotate = prevRotate + deltaRotate;
 
-    prevRotate = rotate;
-    setRotate(rotate);
-}
+//     prevRotate = rotate;
+//     setRotate(rotate);
+// }
 
 function setEvtListeners() {
     const elem = document.querySelector('.knob-container');
