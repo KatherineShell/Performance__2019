@@ -7,12 +7,6 @@ $('.card').each(function(e) {
     }
 });
 
-// const MIN_VALUE = 26;
-
-/**
- * @param {Number} rotate Количество оборотов от нейтриального положения.
- */
-
 document.addEventListener("DOMContentLoaded", function () {
     $('.card').each(function(e) {
         if ($(this).hasClass('card_size_s')) {
@@ -37,22 +31,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
-// var storage;
-
 $(document).ready(function(){
 
     var carousel = $("#carousel");
 
     carousel.owlCarousel();
 });
-
-// function status(e) {
-//     return 200 <= e.status && e.status < 300 ? Promise.resolve(e) : Promise.reject(new Error(e.statusText))
-// }
-
-// function json(e) {
-//     return e.json()
-// }
 
 document.addEventListener("DOMContentLoaded", function () {
     const buttonsContainer = document.querySelector(".buttons-wrap");
