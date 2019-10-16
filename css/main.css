@@ -866,11 +866,11 @@ html {
 html {
     overflow: scroll
 }
-
+/* 
 .video-wrapper {
     min-height: 300px;
     position: relative
-}
+} */
 
 .video {
     position: absolute;
@@ -884,10 +884,10 @@ html {
     filter: brightness(100%) contrast(100%)
 }
 
-.video_active {
+/* .video_active {
     z-index: 10;
     background: #000
-}
+} */
 
 .video-controls-wrap {
     box-sizing: border-box;
@@ -907,10 +907,10 @@ html {
     overflow: hidden;
     transition: height .5s ease
 }
-
+/* 
 .video-controls_active {
     height: 92px
-}
+} */
 
 .controls-text {
     float: left
@@ -919,7 +919,7 @@ html {
 .video-control {
     float: left
 }
-
+/* 
 .video-volume {
     background: url(../img/sound_n.png);
     background-size: cover;
@@ -927,15 +927,15 @@ html {
     width: 40px;
     margin-left: 40px;
     cursor: pointer
-}
+} */
 
-.video-volume_unmuted {
+/* .video-volume_unmuted {
     background: green;
     background: url(../img/sound.png);
     background-size: cover
-}
+} */
 
-.analyser {
+/* .analyser {
     position: absolute;
     z-index: 5;
     width: 30px;
@@ -944,15 +944,15 @@ html {
     right: 0;
     background: green;
     transition: height .5s ease
-}
-
+} */
+/* 
 .analyser_active {
     position: fixed;
     z-index: 15;
     bottom: 40px;
     right: 40px;
     width: 60px
-}
+} */
 
 @media (max-width: 1230px) {
     .card_size_m {
