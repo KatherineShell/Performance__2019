@@ -24452,7 +24452,6 @@ let maxRotate = 0.42; // 150 градусов
 let minRotate = -0.42; // -150 градусов
 
 const MIN_VALUE = 26;
-// const MAX_VALUE = 35;
 const INDICATOR_OFFSET = 265;
 
 const rotateToValue = function(rotate) {
@@ -24502,49 +24501,6 @@ function getMouseAngle(event, centerElem) {
 
     return rad;
 }
-
-let knobDragged;
-let prevAngleRad = null;
-let prevRotate = null;
-
-// function startDragging(e) {
-//     e.preventDefault();
-//     e.stopPropagation();
-//     const rad = getMouseAngle(e, document.querySelector('.knob_center'));
-
-//     knobDragged = true;
-//     prevAngleRad = rad;
-//     prevRotate = curRotate;
-// }
-
-// function stopDragging(e) {
-//     knobDragged = false;
-// }
-
-// function dragRotate(e) {
-//     if (!knobDragged) {
-//         return;
-//     }
-
-//     const old = prevAngleRad;
-//     let rad = getMouseAngle(e, document.querySelector('.knob_center'));
-//     let delta = rad - old;
-
-//     prevAngleRad = rad;
-
-//     if (delta < 0) {
-//         delta += Math.PI * 2;
-//     }
-//     if (delta > Math.PI) {
-//         delta -= Math.PI * 2;
-//     }
-
-//     const deltaRotate = delta / Math.PI / 2;
-//     const rotate = prevRotate + deltaRotate;
-
-//     prevRotate = rotate;
-//     setRotate(rotate);
-// }
 
 function setEvtListeners() {
     const elem = document.querySelector('.knob-container');
@@ -24619,30 +24575,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
-
-// const arrowLeftScens = document.querySelector('.scenarios__paginator .paginator__arrow_left');
-// const arrowRightScens = document.querySelector('.scenarios__paginator .paginator__arrow_right');
-// const panelCountScens = document.querySelectorAll('.scenarios__panel').length;
-// const pageCountScens = document.querySelectorAll('.scenarios__page').length;
-// const scenarios = document.querySelector('.scenarios');
-// const pagiantorScens = document.querySelector('.scenarios__paginator');
-// let currentPage = 1;
-
-
-
-
-// const selectButton = document.querySelector('.filter__select-button');
 const selectButtonText = document.querySelector('.filter__select-button .button__text');
 const selectOptions = document.querySelectorAll('.filter__select-item');
 const popup = document.querySelector('.filter__select-popup');
 
 
 
-let widths = '';
-window.addEventListener('scroll', function() {
-    widths += document.querySelectorAll('body')[0].offsetWidth;
+// let widths = '';
+// window.addEventListener('scroll', function() {
+//     widths += document.querySelectorAll('body')[0].offsetWidth;
 
-});
+// });
 
 selectOptions.forEach(o => {
     o.addEventListener('click', function(e) {
@@ -24657,7 +24600,7 @@ selectOptions.forEach(o => {
 
 
 
-var storage, initCriticalCam = function () {
+var storage;/*, initCriticalCam = function () {
     var u, m, p, v, h, y = new Array, g = document.querySelector(".critical-cam"), f = 0, S = 100, q = 100;
     g.style.backgroundPosition = "0px 0px", g.style.backgroundSize = "100%", g.style.filter = "brightness(100%)";
     var x = function (e, t) {
@@ -24685,7 +24628,7 @@ var storage, initCriticalCam = function () {
     g.addEventListener("pointerdown", function (e) {
         y.push(e), m = e.clientX, u = e.clientY, p = parseInt(g.style.backgroundPositionX, 10), v = parseInt(g.style.backgroundPositionY, 10), 2 == y.length && (h = Math.atan2(y[1].clientY - y[0].clientY, y[1].clientX - y[0].clientX) * (180 / Math.PI)), g.addEventListener("pointermove", t)
     }), document.addEventListener("pointerup", e), g.addEventListener("onpointerup", e)
-};
+};*/
 
 $(document).ready(function(){
 
