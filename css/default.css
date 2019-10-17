@@ -4812,7 +4812,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   padding-left: 0;
   border-radius: 0;
 }
-
+/* 
 .alert {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -4951,8 +4951,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .alert-dark .alert-link {
   color: #040505;
-}
-
+} */
+/* 
 @keyframes progress-bar-stripes {
   from {
     background-position: 1rem 0;
@@ -5001,7 +5001,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   .progress-bar-animated {
     animation: none;
   }
-}
+} */
 
 .media {
   display: flex;
