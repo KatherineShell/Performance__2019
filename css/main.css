@@ -314,6 +314,10 @@ footer {
     grid-row: span 2
 }
 
+.carousel-element{
+    overflow: hidden;
+}
+
 .card {
     background: url("../img/cbg.jpg");
     color: #333;
