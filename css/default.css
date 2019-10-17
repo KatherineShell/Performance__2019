@@ -4512,7 +4512,7 @@ header {
 .accordion > .card .card-header {
   margin-bottom: -1px;
 }
-
+/* 
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;
@@ -4544,7 +4544,7 @@ header {
 
 .breadcrumb-item.active {
   color: #6c757d;
-}
+} */
 
 .pagination {
   display: flex;
@@ -4552,7 +4552,7 @@ header {
   list-style: none;
   border-radius: 0.25rem;
 }
-
+/* 
 .page-link {
   position: relative;
   display: block;
@@ -4576,8 +4576,8 @@ header {
   z-index: 2;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-}
-
+} */
+/* 
 .page-item:first-child .page-link {
   margin-left: 0;
   border-top-left-radius: 0.25rem;
@@ -4602,7 +4602,7 @@ header {
   cursor: auto;
   background-color: #fff;
   border-color: #dee2e6;
-}
+} */
 /* 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
@@ -4635,7 +4635,7 @@ header {
   border-top-right-radius: 0.2rem;
   border-bottom-right-radius: 0.2rem;
 } */
-/* 
+
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -4792,7 +4792,7 @@ a.badge-dark:hover, a.badge-dark:focus {
 a.badge-dark:focus, a.badge-dark.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
-} */
+} 
 
 /* .jumbotron {
   padding: 2rem 1rem;
@@ -4839,13 +4839,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
   opacity: .75;
-}* 
-list-gro
- display
- flex-di* 
- list-gro
-  display
-  flex-di
+}
 
 button.close {
   padding: 0;
@@ -4900,7 +4894,7 @@ a.close.disabled {
 
 .toast-body {
   padding: 0.75rem;
-} */
+} 
 
 .carousel {
   position: relative;
