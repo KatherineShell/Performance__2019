@@ -3887,7 +3887,7 @@ input[type="button"].btn-block {
 .tab-content > .active {
   display: block;
 }
-
+/* 
 .navbar {
   position: relative;
   display: flex;
@@ -4248,7 +4248,7 @@ input[type="button"].btn-block {
 
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
-}
+} */
 
 .card {
   position: relative;
