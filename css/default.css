@@ -754,7 +754,7 @@ button.bg-dark:focus {
       height: 20px;
       background: url("../img/checked.svg");
 }
-
+/* 
 .overflow-auto {
   overflow: auto !important;
 }
@@ -821,8 +821,8 @@ button.bg-dark:focus {
 
 .shadow-none {
   box-shadow: none !important;
-}
-
+} */
+/* 
 .stretched-link::after {
   position: absolute;
   top: 0;
@@ -833,15 +833,15 @@ button.bg-dark:focus {
   pointer-events: auto;
   content: "";
   background-color: rgba(0, 0, 0, 0);
-}
-
+} */
+/* 
 .visible {
   visibility: visible !important;
 }
 
 .invisible {
   visibility: hidden !important;
-}
+} */
 
 @media print {
   *,
