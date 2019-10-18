@@ -3356,7 +3356,7 @@ input[type="button"].btn-block {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
-
+/* 
 .custom-control {
   position: relative;
   display: block;
@@ -3796,8 +3796,8 @@ input[type="button"].btn-block {
   .custom-file-label,
   .custom-select {
     transition: none;
-  }
-/* }
+  } 
+ }*/
 
 .nav {
   display: flex;
@@ -3820,9 +3820,9 @@ input[type="button"].btn-block {
   color: #6c757d;
   pointer-events: none;
   cursor: default;
-} */
+} 
 
-/* .nav-tabs {
+ .nav-tabs {
   border-bottom: 1px solid #dee2e6;
 }
 
@@ -3857,7 +3857,7 @@ input[type="button"].btn-block {
   margin-top: -1px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-} */
+} 
 
 .nav-pills .nav-link {
   border-radius: 0.25rem;
