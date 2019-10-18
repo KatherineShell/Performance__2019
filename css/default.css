@@ -4371,7 +4371,7 @@ header {
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
-
+/* 
 .card-deck {
   display: flex;
   flex-direction: column;
@@ -4442,7 +4442,7 @@ header {
   .card-group > .card:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
   }
-}
+} */
 
 .card-columns .card {
   margin-bottom: 0.75rem;
