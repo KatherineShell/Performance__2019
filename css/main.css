@@ -14,7 +14,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
     line-height: 1
 }
-
+/* 
 ol, ul {
     list-style: none
 } 
@@ -30,7 +30,7 @@ blockquote:after, blockquote:before, q:after, q:before {
 table {
     border-collapse: collapse;
     border-spacing: 0
-} 
+}  */
 
 input[type=range] {
     -webkit-appearance: none
@@ -307,11 +307,6 @@ footer {
     grid-column: span 4;
     grid-row: span 3
 }
-/* 
-.card_size_c {
-    grid-column: span 3;
-    grid-row: span 2
-} */
 
 .carousel-element{
     overflow: hidden;
@@ -361,7 +356,7 @@ footer {
 html {
     height: 100%;
 }
-.page {
+/* .page {
     height: 100%;
     font: 14px Arial, sans-serif;
     color: #333;
@@ -369,10 +364,6 @@ html {
     margin: 0 auto;
     padding: 0;
     width: 1366px;
-}
-
-/* .stats {
-    opacity: 0;
 } */
 
 .card-heading {
