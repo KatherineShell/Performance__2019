@@ -11,10 +11,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block;
-} */
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -35,20 +31,6 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-/* 
-ol,
-ul,
-dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
-} */
-/* 
-ol ol,
-ul ul,
-ol ul,
-ul ol {
-  margin-bottom: 0;
-} */
 
 a {
   color: #007bff;
@@ -84,10 +66,6 @@ svg {
   overflow: hidden;
   vertical-align: middle;
 }
-/* 
-th {
-  text-align: inherit;
-} */
 
 button {
   border-radius: 0;
@@ -144,10 +122,10 @@ button::-moz-focus-inner,
   font: inherit;
   -webkit-appearance: button;
 }
-
+/* 
 [hidden] {
   display: none !important;
-}
+} */
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -182,7 +160,7 @@ h4, .h4 {
   border-radius: 0.25rem;
 }
 
-.card > .list-group:first-child .list-group-item:first-child {
+/* .card > .list-group:first-child .list-group-item:first-child {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
@@ -190,7 +168,7 @@ h4, .h4 {
 .card > .list-group:last-child .list-group-item:last-child {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
-}
+} */
 
 .card-title {
   margin-bottom: 0;
@@ -202,10 +180,6 @@ header {
   padding: 0 40px;
   border-bottom: 1px solid #f0f0f0
 }
-/* 
-a.close.disabled {
-  pointer-events: none;
-}  */
 
 .carousel {
   position: relative;

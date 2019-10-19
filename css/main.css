@@ -14,24 +14,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
     line-height: 1
 }
-
+/* 
 ol, ul {
     list-style: none
-}
-
+} */
+/* 
 blockquote, q {
     quotes: none
-}
-
+} */
+/* 
 blockquote:after, blockquote:before, q:after, q:before {
     content: '';
     content: none
-}
+} */
 
-table {
+/* table {
     border-collapse: collapse;
     border-spacing: 0
-}
+} */
 
 input[type=range] {
     -webkit-appearance: none
@@ -308,11 +308,11 @@ footer {
     grid-column: span 4;
     grid-row: span 3
 }
-
+/* 
 .card_size_c {
     grid-column: span 3;
     grid-row: span 2
-}
+} */
 
 .carousel-element{
     overflow: hidden;
@@ -331,14 +331,14 @@ footer {
     padding: 0
 }
 
-.main {
+/* .main {
     height: 331px;
     border-radius: 20px;
     padding: 0 20px 0 25px;
     display: flex;
     justify-content: space-between;
     background: url("assets/sh.png") center center/cover no-repeat;
-}
+} */
 
 .menu {
     margin-left: 52px;
