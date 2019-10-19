@@ -14,24 +14,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
     line-height: 1
 }
-/* 
+
 ol, ul {
     list-style: none
-} */
-/* 
+} 
+
 blockquote, q {
     quotes: none
-} */
-/* 
+} 
+
 blockquote:after, blockquote:before, q:after, q:before {
     content: '';
     content: none
-} */
-
-/* table {
+} 
+table {
     border-collapse: collapse;
     border-spacing: 0
-} */
+} 
 
 input[type=range] {
     -webkit-appearance: none
@@ -331,19 +330,19 @@ footer {
     padding: 0
 }
 
-/* .main {
+.main {
     height: 331px;
     border-radius: 20px;
     padding: 0 20px 0 25px;
     display: flex;
     justify-content: space-between;
     background: url("assets/sh.png") center center/cover no-repeat;
-} */
+}
 
-/* .menu {
+.menu {
     margin-left: 52px;
-} */
-/* 
+}
+
 .modal {
     display: none;
     flex-direction: column;
@@ -357,12 +356,12 @@ footer {
     height: 100%;
     overflow: auto;
     background: rgba(51, 51, 51, 0.5);
-} */
+}
 
 html {
     height: 100%;
 }
-/* .page {
+.page {
     height: 100%;
     font: 14px Arial, sans-serif;
     color: #333;
@@ -370,7 +369,7 @@ html {
     margin: 0 auto;
     padding: 0;
     width: 1366px;
-} */
+}
 
 /* .stats {
     opacity: 0;
