@@ -340,10 +340,10 @@ footer {
     background: url("assets/sh.png") center center/cover no-repeat;
 } */
 
-.menu {
+/* .menu {
     margin-left: 52px;
-}
-
+} */
+/* 
 .modal {
     display: none;
     flex-direction: column;
@@ -357,12 +357,12 @@ footer {
     height: 100%;
     overflow: auto;
     background: rgba(51, 51, 51, 0.5);
-}
+} */
 
 html {
     height: 100%;
 }
-.page {
+/* .page {
     height: 100%;
     font: 14px Arial, sans-serif;
     color: #333;
@@ -370,11 +370,11 @@ html {
     margin: 0 auto;
     padding: 0;
     width: 1366px;
-}
+} */
 
-.stats {
+/* .stats {
     opacity: 0;
-}
+} */
 
 .card-heading {
     display: flex;
