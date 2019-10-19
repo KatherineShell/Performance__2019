@@ -574,7 +574,7 @@ html {
 html {
     overflow: scroll
 }
-
+/* 
 .video {
     position: absolute;
     left: 0;
@@ -585,8 +585,8 @@ html {
     z-index: 1;
     -webkit-filter: brightness(100%) contrast(100%);
     filter: brightness(100%) contrast(100%)
-}
-
+} */
+/* 
 .video-controls-wrap {
     box-sizing: border-box;
     padding: 40px;
@@ -604,15 +604,15 @@ html {
     z-index: 20;
     overflow: hidden;
     transition: height .5s ease
-}
-
+} */
+/* 
 .controls-text {
     float: left
-}
+} */
 
-.video-control {
+/* .video-control {
     float: left
-}
+} */
 
 @media (max-width: 1230px) {
     .card_size_m {
