@@ -10,10 +10,10 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 body {
     line-height: 1
 }
-/* 
+
 ol, ul {
     list-style: none
-}  */
+} 
 
 input[type=range] {
     -webkit-appearance: none
@@ -339,7 +339,7 @@ footer {
 html {
     height: 100%;
 }
-/* .page {
+.page {
     height: 100%;
     font: 14px Arial, sans-serif;
     color: #333;
@@ -347,7 +347,7 @@ html {
     margin: 0 auto;
     padding: 0;
     width: 1366px;
-} */
+}
 
 .card-heading {
     display: flex;
