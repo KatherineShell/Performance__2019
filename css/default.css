@@ -22,7 +22,7 @@ body {
   background-color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -67,10 +67,6 @@ svg {
   vertical-align: middle;
 }
 
-button {
-  border-radius: 0;
-}
-
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
@@ -81,6 +77,8 @@ button{
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  border-radius: 0;
+  text-transform: none;
 }
 
 button,
@@ -88,23 +86,18 @@ input {
   overflow: visible;
 }
 
-button{
-  text-transform: none;
-}
-
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h2, h3, h4 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
 }
 
-h2, .h2 {
+h2 {
   font-size: 2rem;
 }
 
