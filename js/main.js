@@ -5,32 +5,31 @@ buttonsContainer.innerHTML = '<button class="button button_yellow" type="button"
 const fridgeInfoContainer = document.querySelector(".card_size_m:nth-child(8) .card-description");
 
 const confirmPurchaseButton = document.querySelector(".buttons-wrap .button_yellow");
-// const purchaseListContainer = document.createElement('div');
-// const purchaseListTitle = document.createElement('p');
-// const purchaseList = document.createElement('ol');
-// const purchaseListItemOne = document.createElement('li');
-// const purchaseListItemTwo = document.createElement('li');
+const purchaseListContainer = document.createElement('div');
+const purchaseListTitle = document.createElement('p');
+const purchaseList = document.createElement('ol');
+const purchaseListItemOne = document.createElement('li');
+const purchaseListItemTwo = document.createElement('li');
 
-// purchaseListContainer.setAttribute('class', 'purchase-list-wrap');
-// purchaseListTitle.setAttribute('class', 'card-description card-description_big description_critical');
-// purchaseListTitle.textContent = 'Список покупок:';
-// purchaseList.setAttribute('class', 'purchase-list');
-// purchaseListItemOne.setAttribute('class', 'purchase-list__item');
-// purchaseListItemOne.textContent = 'Хлеб';
-// purchaseListItemTwo.setAttribute('class', 'purchase-list__item');
-// purchaseListItemTwo.textContent = 'Молоко';
+purchaseListContainer.setAttribute('class', 'purchase-list-wrap');
+purchaseListTitle.setAttribute('class', 'card-description card-description_big description_critical');
+purchaseListTitle.textContent = 'Список покупок:';
+purchaseList.setAttribute('class', 'purchase-list');
+purchaseListItemOne.setAttribute('class', 'purchase-list__item');
+purchaseListItemOne.textContent = 'Хлеб';
+purchaseListItemTwo.setAttribute('class', 'purchase-list__item');
+purchaseListItemTwo.textContent = 'Молоко';
 
-// purchaseListContainer.appendChild(purchaseListTitle);
-// purchaseListContainer.appendChild(purchaseList);
-// purchaseList.appendChild(purchaseListItemOne);
-// purchaseList.appendChild(purchaseListItemTwo);
+purchaseListContainer.appendChild(purchaseListTitle);
+purchaseListContainer.appendChild(purchaseList);
+purchaseList.appendChild(purchaseListItemOne);
+purchaseList.appendChild(purchaseListItemTwo);
 
 const purchaseHtml = '<div class="purchase-list-wrap"><p class="card-description card-description_big description_critical">Список покупок:</p><ol class="purchase-list"><li class="purchase-list__item">Хлеб</li><li class="purchase-list__item">Молоко</li></ol></div>';
 
 confirmPurchaseButton.onclick = () => {
-
-    // fridgeInfoContainer.replaceWith(purchaseListContainer)
-    fridgeInfoContainer.innerHTML = purchaseHtml;
+     fridgeInfoContainer.replaceWith(purchaseListContainer)
+   // fridgeInfoContainer.innerHTML = purchaseHtml;
     buttonsContainer.style.display = "none";
 }
 
