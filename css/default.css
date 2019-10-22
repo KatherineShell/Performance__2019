@@ -167,7 +167,7 @@ header {
       left: -24px;
       width: 20px;
       height: 20px;
-      background: url("../img/checked.svg");
+      background: url("../img/checked-min.svg");
 }
 
 @media print {
