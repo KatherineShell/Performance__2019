@@ -307,7 +307,7 @@ footer {
     color: #fff;
     padding: 0
 }
-
+/* 
 .main {
     height: 331px;
     border-radius: 20px;
@@ -315,7 +315,7 @@ footer {
     display: flex;
     justify-content: space-between;
     background: url("assets/sh.png") center center/cover no-repeat;
-}
+} */
 
 .menu {
     margin-left: 52px;
