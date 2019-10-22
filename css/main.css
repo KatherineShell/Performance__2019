@@ -307,20 +307,11 @@ footer {
     color: #fff;
     padding: 0
 }
-/* 
-.main {
-    height: 331px;
-    border-radius: 20px;
-    padding: 0 20px 0 25px;
-    display: flex;
-    justify-content: space-between;
-    background: url("assets/sh.png") center center/cover no-repeat;
-} */
 
 .menu {
     margin-left: 52px;
 }
-
+/* 
 .modal {
     display: none;
     flex-direction: column;
@@ -334,7 +325,7 @@ footer {
     height: 100%;
     overflow: auto;
     background: rgba(51, 51, 51, 0.5);
-}
+} */
 
 html {
     height: 100%;
