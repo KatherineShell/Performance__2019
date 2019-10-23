@@ -697,10 +697,10 @@ html {
         padding-right: 0;
         float: right
     }
-
+/* 
     .critical {
         padding: 0
-    }
+    } */
 
     .heading-critical {
         padding: 0 17px;
@@ -731,10 +731,6 @@ html {
         text-overflow: ellipsis;
         overflow: hidden
     }
-
-    /* .song-data {
-        padding-left: 15px
-    } */
 
     .song-range {
         width: 192px
@@ -774,16 +770,6 @@ html {
     .footer-menu {
         padding-left: 20px
     }
- /*
-    .card-video {
-        overflow: visible
-    }
-
-    .video-control {
-        margin-right: 100px;
-        margin-bottom: 10px;
-        margin-top: 10px
-    } */
 }
 
 .card{
