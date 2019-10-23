@@ -9,7 +9,7 @@ const purchaseHtml = '<div class="purchase-list-wrap"><p class="card-description
 confirmPurchaseButton.onclick = () => {
     fridgeInfoContainer.outerHTML = purchaseHtml;
     buttonsContainer.style.display = "none";
-}
+};
 
 document.getElementsByClassName("header-menu__switcher")[0].addEventListener("click", function () {
     document.getElementsByClassName("header-menu")[0].classList.toggle("header-menu_active")
