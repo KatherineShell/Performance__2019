@@ -732,9 +732,9 @@ html {
         overflow: hidden
     }
 
-    .song-data {
+    /* .song-data {
         padding-left: 15px
-    }
+    } */
 
     .song-range {
         width: 192px
@@ -774,7 +774,7 @@ html {
     .footer-menu {
         padding-left: 20px
     }
-
+ /*
     .card-video {
         overflow: visible
     }
@@ -783,7 +783,7 @@ html {
         margin-right: 100px;
         margin-bottom: 10px;
         margin-top: 10px
-    }
+    } */
 }
 
 .card{
